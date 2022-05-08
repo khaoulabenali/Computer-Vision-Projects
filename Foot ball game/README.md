@@ -28,7 +28,7 @@
     * Utility calculators are a family of calculators performing final tasks such as image annotation.
 
 ### About the project :
-- This project is a direct application of mediapipe which detects two hands (right and left) for the same person.This can be used in multiple projects such as robot arm,virtual presentation,virtual pointer,distance calculator,... In this particular project it is used to move the two bats in order to keep the ball inside the playground with the help of opencv and cv2 and some calculations of the objects coordinates (x and y).
+- This project is a direct application of mediapipe which detects two hands (right and left) for the same person.This can be used in multiple projects such as robot arm,virtual presentation,virtual pointer,distance calculator,... In this particular project it is used to move the two bats in order to keep the ball inside the playground with the help of opencv and cvzone and some calculations of the objects coordinates (x and y).
 - This project was done by following the Tuto of Murtaza hassan but with some modification : https://www.youtube.com/watch?v=LIDJzJhlyyg
 - Demo Link on Youtube : https://www.youtube.com/watch?v=zwSnqhUkNXI
 - Demo :
