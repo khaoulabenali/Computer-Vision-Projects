@@ -5,6 +5,9 @@
 
 ### Graphs:
 -The MediaPipe perception pipeline is called a Graph. Let us take the example of the first solution, Hands. We feed a stream of images as input which comes out with hand landmarks rendered on the images. 
-<img src="/pictures/mp.PNG" width="500" height="500" align="center"/>
+
+
+![mp](https://user-images.githubusercontent.com/64165946/167312070-da8ab58d-ea9d-402f-9bee-261fa87978dd.PNG)
+
 
 [![asciicast](https://user-images.githubusercontent.com/64165946/167310704-394ddb17-7fa9-4541-ba15-fd01e8baddba.mp4)](https://user-images.githubusercontent.com/64165946/167310704-394ddb17-7fa9-4541-ba15-fd01e8baddba.mp4)
