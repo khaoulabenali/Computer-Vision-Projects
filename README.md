@@ -18,64 +18,60 @@
   
 <img src="/assets/hdcvw.png" width="500" height="500" align="center"/>
 
-### Natural Language Processing Algorithms :
 
-- Once your data has been pre-processed, it’s time to move onto the next step: building an NLP algorithm, and training it so it can interpret natural language and perform specific tasks.
+### Computer Vision applications :
 
-- There are two main algorithms you can use to solve NLP problems:
+- Applications range from tasks such as industrial machine vision systems which, say, inspect bottles speeding by on a production line, to research into artificial intelligence and computers or robots that can comprehend the world around them. The computer vision and machine vision fields have significant overlap. Computer vision covers the core technology of automated image analysis which is used in many fields. Machine vision usually refers to a process of combining automated image analysis with other methods and technologies to provide automated inspection and robot guidance in industrial applications. In many computer-vision applications, the computers are pre-programmed to solve a particular task, but methods based on learning are now becoming increasingly common. Examples of applications of computer vision include systems for:
+Learning 3D shapes has been a challenging task in computer vision. Recent advances in deep learning has enabled researchers to build models that are able to generate and reconstruct 3D shapes from single or multi-view depth maps or silhouettes seamlessly and efficiently.
 
-    * A rule-based approach. Rule-based systems rely on hand-crafted grammatical rules that need to be created by experts in linguistics, or knowledge engineers. This was the earliest approach to crafting NLP algorithms, and it’s still used today.
+    * Automatic inspection, e.g., in manufacturing applications;
+    * Assisting humans in identification tasks, e.g., a species identification system;
+    * Controlling processes, e.g., an industrial robot;
+    * Detecting events, e.g., for visual surveillance or people counting, e.g., in the restaurant industry;
+    * Interaction, e.g., as the input to a device for computer-human interaction;
+    * Modeling objects or environments, e.g., medical image analysis or topographical modeling;
+    * Navigation, e.g., by an autonomous vehicle or mobile robot; and
+    * Organizing information, e.g., for indexing databases of images and image sequences.
+    * Tracking surfaces or planes in 3D coordinates for allowing Augmented Reality experiences.
 
-    * Machine learning algorithms. Machine learning models, on the other hand, are based on statistical methods and learn to perform tasks after being fed examples (training data). 
+###### Medicine :
 
-- The biggest advantage of machine learning algorithms is their ability to learn on their own. You don’t need to define manual rules – instead machines learn from previous data to make predictions on their own, allowing for more flexibility.
+- One of the most prominent application fields is medical computer vision, or medical image processing, characterized by the extraction of information from image data to diagnose a patient. An example of this is detection of tumours, arteriosclerosis or other malign changes; measurements of organ dimensions, blood flow, etc. are another example. It also supports medical research by providing new information: e.g., about the structure of the brain, or about the quality of medical treatments. Applications of computer vision in the medical area also includes enhancement of images interpreted by humans—ultrasonic images or X-ray images for example—to reduce the influence of noise.
 
-- Machine learning algorithms are fed training data and expected outputs (tags) to train machines to make associations between a particular input and its corresponding output. Machines then use statistical analysis methods to build their own “knowledge bank” and discern which features best represent the texts, before making predictions for unseen data (new texts):
-<img src="/assets/Capture.PNG" width="500" height="500" align="center"/>
+###### Machine Vision :
 
-### Natural Language Processing Examples :
-
-###### Text Classification :
-
-- Text classification is one of the most basic NLP tasks and consists of assigning categories (tags) to a text, based on its content. Classification models can serve different purposes, for example:
-
-
-* Sentiment analysis is the process of analyzing emotions within a text and classifying them as positive, negative, or neutral. By running sentiment analysis on social media posts, product reviews, NPS surveys, and customer feedback, businesses can gain valuable insights about how customers perceive their brand.
-
-* Topic classification consists of identifying the main themes or topics within a text and assigning predefined tags. For training your topic classifier, you’ll need to be familiar with the data you’re analyzing, so you can define relevant categories. For example, you might work for a software company, and receive a lot of customer support tickets that mention technical issues, usability, and feature requests.In this case, you might define your tags as Bugs, Feature Requests, and UX/IX.
+- A second application area in computer vision is in industry, sometimes called machine vision, where information is extracted for the purpose of supporting a production process. One example is quality control where details or final products are being automatically inspected in order to find defects. One of the most prevalent fields for such inspection is the Wafer industry in which every single Wafer is being measured and inspected for inaccuracies or defects to prevent a computer chip from coming to market in an unusable manner. Another example is measurement of position and orientation of details to be picked up by a robot arm. Machine vision is also heavily used in agricultural process to remove undesirable food stuff from bulk material, a process called optical sorting.
 
 
-* Intent detection consists of identifying the purpose, goal, or intention behind a text. It’s an excellent way of sorting outbound sales email responses by Interested, Need Information, Unsubscribe, Bounce, etc. The tag Interested could help you spot a potential sale opportunity as soon as an email enters your inbox!
+###### Military :
 
-###### Text Extraction :
-
-- Another example of NLP is text extraction, which consists of pulling out specific pieces of data that are already present in a text. It’s a perfect way to automatically summarize text or find key information. The most common examples of extraction models are:
+- Military applications are probably one of the largest areas for computer vision. The obvious examples are detection of enemy soldiers or vehicles and missile guidance. More advanced systems for missile guidance send the missile to an area rather than a specific target, and target selection is made when the missile reaches the area based on locally acquired image data. Modern military concepts, such as "battlefield awareness", imply that various sensors, including image sensors, provide a rich set of information about a combat scene which can be used to support strategic decisions. In this case, automatic processing of the data is used to reduce complexity and to fuse information from multiple sensors to increase reliability.
 
 
-* Keyword extraction automatically extracts the most important words and expressions within a text. This can provide you with a sort of preview of the content and its main topics, without needing to read each piece.
+###### Autonomous vehicles :
 
-###### Machine Translation :
+- One of the newer application areas is autonomous vehicles, which include submersibles, land-based vehicles (small robots with wheels, cars or trucks), aerial vehicles, and unmanned aerial vehicles (UAV). The level of autonomy ranges from fully autonomous (unmanned) vehicles to vehicles where computer-vision-based systems support a driver or a pilot in various situations. Fully autonomous vehicles typically use computer vision for navigation, e.g. for knowing where it is, or for producing a map of its environment (SLAM) and for detecting obstacles. It can also be used for detecting certain task-specific events, e.g., a UAV looking for forest fires. Examples of supporting systems are obstacle warning systems in cars and systems for autonomous landing of aircraft. Several car manufacturers have demonstrated systems for autonomous driving of cars, but this technology has still not reached a level where it can be put on the market. There are ample examples of military autonomous vehicles ranging from advanced missiles to UAVs for recon missions or missile guidance. Space exploration is already being made with autonomous vehicles using computer vision, e.g., NASA's Curiosity and CNSA's Yutu-2 rover.
 
-- This was one of the first problems addressed by NLP researchers. Online translation tools (like Google Translate) use different natural language processing techniques to achieve human-levels of accuracy in translating speech and text to different languages. Custom translators models can be trained for a specific domain to maximize the accuracy of the results.
 
-###### Topic Modeling :
+###### Tactile Feedback :
 
-- Topic modeling is similar to topic classification. This example of natural language processing finds relevant topics in a text by grouping texts with similar words and expressions.
+- Materials such as rubber and silicon are being used to create sensors that allow for applications such as detecting micro undulations and calibrating robotic hands. Rubber can be used in order to create a mold that can be placed over a finger, inside of this mold would be multiple strain gauges. The finger mold and sensors could then be placed on top of a small sheet of rubber containing an array of rubber pins. A user can then wear the finger mold and trace a surface. A computer can then read the data from the strain gauges and measure if one or more of the pins is being pushed upward. If a pin is being pushed upward then the computer can recognize this as an imperfection in the surface. This sort of technology is useful in order to receive accurate data of the imperfections on a very large surface. Another variation of this finger mold sensor are sensors that contain a camera suspended in silicon. The silicon forms a dome around the outside of the camera and embedded in the silicon are point markers that are equally spaced. These cameras can then be placed on devices such as robotic hands in order to allow the computer to receive highly accurate tactile data.
 
-- Since you don’t need to create a list of predefined tags or tag any data, it’s a good option for exploratory analysis, when you are not yet familiar with your data.
+- Other application areas include:
 
-###### Natural Language Generation (NLG) :
+    * Support of visual effects creation for cinema and broadcast, e.g., camera tracking (matchmoving).
+    * Surveillance.
+    * Driver drowsiness detection.
+    * Tracking and counting organisms in the biological sciences
 
-- Natural language generation, NLG for short, is a natural language processing task that consists of analyzing unstructured data and using it as an input to automatically create content. 
-
-<img src="/assets/C13783_01_04.jpg" width="500" height="500" align="center"/>
+<img src="/assets/cva.PNG" width="500" height="500" align="center"/>
 
 
 ### Top NLP Tools to Help You Get Started :
     
-* MonkeyLearn
-* Google Cloud NLP
-* IBM Watson
-* Aylien
-* Amazon Comprehend
-* MeaningCloud
+* OpenCV
+* Matlab
+* CUDA
+* SimpleCV
+* YOLO
+* BoofCV
